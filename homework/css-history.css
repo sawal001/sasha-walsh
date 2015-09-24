@@ -1,0 +1,19 @@
+@charset "UTF-8"
+
+body {
+font-style: sans-serif;
+line-height: 12px
+}
+
+h1 {
+color: red
+}
+
+#first {
+color: green
+}
+
+.dates {
+  font-style: italic;
+  font-weight: bold
+}
