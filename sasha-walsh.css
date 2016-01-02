@@ -66,7 +66,7 @@ li {
   margin-bottom: 0;
   padding: 5%;
 }
-a {
+.navAttributes {
   color: white;
   font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 2em;
@@ -129,4 +129,46 @@ font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Hel
   float:left;
   height: 200px;
   width: 200px;
+}
+/**ABOUT PAGE**/
+#headingAbout {
+  float:left;
+  font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin-left:18%;
+  margin-bottom: 0;
+
+}
+
+#bodyAbout {
+  clear:both;
+  color:black;
+  display: block;
+  margin-left: 10em;
+  margin-right: 10em;
+  margin-top: 0;
+  font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+#openingAbout {
+  clear:both;
+  font-weight: bold;
+  margin-left:41%;
+  margin-top: 10px;
+}
+#breakAbout {
+  clear: both;
+}
+
+#headshotAbout {
+  border-radius: 50%;
+  clear:both;
+  height: 175px;
+  margin-left: 42%;
+  margin-bottom:0;
+  overflow: hidden;
+  position: relative;
+  width: 175px;
+}
+.projectsLink {
+  color: #e8218f;
+  text-decoration: none;
 }
