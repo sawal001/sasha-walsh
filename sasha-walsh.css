@@ -1,0 +1,132 @@
+body {
+  /**border: 20px solid black fixed;**/
+  display: flex;
+  flex-direction: column;
+  margin:0;
+  position:absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.Baltimore {
+display:flex;
+flex-direction: column;
+overflow: hidden;
+width: 100%;
+}
+img {
+display:flex;
+flex-direction: column;
+height: 100%;
+overflow: hidden;
+width:100%;
+}
+/**RASPBERRY BAR AT THE TOP OF SCREEN**/
+.topBar {
+  background: #e8218f;
+  border: black solid 10px;
+  display:inline-block;
+  font-size: 16px;
+  margin:0;
+  padding: 1%;
+}
+.topBox {
+  display:inline-block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.name {
+  display: inline-block;
+  float:left;
+  font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 5em;
+  margin-bottom: 0;
+  margin-left: 5%;
+  margin-top: 0;
+  padding:0;
+  color: white;
+}
+/**NAVIGATION**/
+nav {
+  float:right;
+  margin:0;
+  margin-left: 10%;
+  padding:0;
+  width:45%;
+
+}
+.navLinks {
+  display: inline-block;
+  float:right;
+  margin: 0;
+  width: 500px;
+}
+li {
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 5%;
+}
+a {
+  color: white;
+  font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 2em;
+  text-decoration: none;
+}
+/**END NAVIGATION BAR**/
+.tagLine {
+color: white;
+display:inline-block;
+font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-size: 2.5em;
+margin-top: 0;
+margin-left: 5%;
+padding:0;
+}
+/**PROJECTS PAGE**/
+h3 {
+  font-size: 2em;
+  font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#projects {
+margin-left:18%;
+font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+}
+
+#website {
+
+  display:inline-block;
+  float:left;
+
+}
+#websiteBox {
+  background-color: gray;
+  display:inline-block;
+  float:left;
+  height: 200px;
+  width: 200px;
+}
+#wired {
+  display:inline-block;
+  float:left;
+}
+#wiredBox {
+  background-color: gray;
+  display:inline-block;
+  float:left;
+  height: 200px;
+  width: 200px;
+}
+#resume{
+
+  display:inline-block;
+  float:left;
+}
+#resumeBox {
+  background-color: gray;
+  display:inline-block;
+  float:left;
+  height: 200px;
+  width: 200px;
+}
